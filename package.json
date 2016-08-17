@@ -1,0 +1,117 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dial_minutes",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "health"
+        ],
+        "displayName": "DIAL_MINUTES",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_ICON": 1,
+            "KEY_TEMP": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/BLUETOOTH_DISCONNECTED_BLACK_ICON.png",
+                    "name": "BLUETOOTH_DISCONNECTED_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_DAY_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_NIGHT_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_BLACK_ICON.png",
+                    "name": "CLOUDY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FOG_BLACK_ICON.png",
+                    "name": "FOG_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHTENING_BLACK_ICON.png",
+                    "name": "LIGHTENING_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_DAY_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_NIGHT_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RAIN_BLACK_ICON.png",
+                    "name": "RAIN_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE_BLACK_ICON.png",
+                    "name": "SHOE_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SLEET_BLACK_ICON.png",
+                    "name": "SLEET_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SNOW_BLACK_ICON.png",
+                    "name": "SNOW_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WIND_BLACK_ICON.png",
+                    "name": "WIND_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SCREENSHOT.png",
+                    "menuIcon": true,
+                    "name": "SCREENSHOT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "64a9994c-04a6-4bb3-8384-34cd96272377",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.1.0"
+}
